@@ -1,0 +1,125 @@
+{
+  "lora_models": [
+    {
+      "name": "thangka_style",
+      "display_name": "唐卡风格",
+      "filename": "thangka_style.safetensors",
+      "trigger_words": ["thangka style", "tibetan buddhist art"],
+      "recommended_weight": 0.8,
+      "description": "传统唐卡绘画风格，适合佛像、菩萨等宗教题材",
+      "compatible_checkpoints": ["sd_v15", "chilloutmix", "deliberate"],
+      "example_prompt": "thangka style, buddha statue, golden details, sacred art, <lora:thangka_style:0.8>",
+      "tags": ["宗教", "传统艺术", "佛教"]
+    },
+    {
+      "name": "tibetan_portrait",
+      "display_name": "藏族人像",
+      "filename": "tibetan_portrait.safetensors",
+      "trigger_words": ["tibetan person", "ethnic portrait"],
+      "recommended_weight": 0.7,
+      "description": "藏族人物肖像风格，增强民族特征",
+      "compatible_checkpoints": ["sd_v15", "chilloutmix", "realistic_vision"],
+      "example_prompt": "tibetan girl, beautiful, traditional costume, <lora:tibetan_portrait:0.7>",
+      "tags": ["人像", "民族", "写实"]
+    },
+    {
+      "name": "tibetan_landscape",
+      "display_name": "藏地风光",
+      "filename": "tibetan_landscape.safetensors",
+      "trigger_words": ["tibetan plateau", "himalayan landscape"],
+      "recommended_weight": 0.6,
+      "description": "青藏高原风光风格",
+      "compatible_checkpoints": ["sd_v15", "deliberate", "realistic_vision"],
+      "example_prompt": "tibetan plateau, vast grassland, snow mountains, blue sky, <lora:tibetan_landscape:0.6>",
+      "tags": ["风景", "自然", "高原"]
+    },
+    {
+      "name": "tibetan_architecture",
+      "display_name": "藏式建筑",
+      "filename": "tibetan_architecture.safetensors",
+      "trigger_words": ["tibetan architecture", "tibetan monastery"],
+      "recommended_weight": 0.75,
+      "description": "藏式建筑风格，适合寺庙、宫殿等",
+      "compatible_checkpoints": ["sd_v15", "deliberate"],
+      "example_prompt": "tibetan monastery, white walls, golden roof, mountain backdrop, <lora:tibetan_architecture:0.75>",
+      "tags": ["建筑", "寺庙", "传统"]
+    },
+    {
+      "name": "khampa_style",
+      "display_name": "康巴风格",
+      "filename": "khampa_style.safetensors",
+      "trigger_words": ["khampa tibetan", "khampa style"],
+      "recommended_weight": 0.7,
+      "description": "康巴藏族风格，适合康巴人物",
+      "compatible_checkpoints": ["sd_v15", "chilloutmix", "realistic_vision"],
+      "example_prompt": "khampa man, hero knot hairstyle, traditional chuba, <lora:khampa_style:0.7>",
+      "tags": ["人物", "康巴", "民族"]
+    },
+    {
+      "name": "gesar_hero",
+      "display_name": "格萨尔英雄",
+      "filename": "gesar_hero.safetensors",
+      "trigger_words": ["king gesar", "tibetan hero"],
+      "recommended_weight": 0.8,
+      "description": "格萨尔王史诗风格",
+      "compatible_checkpoints": ["sd_v15", "deliberate"],
+      "example_prompt": "king gesar, golden armor, white horse, heroic pose, <lora:gesar_hero:0.8>",
+      "tags": ["史诗", "英雄", "格萨尔"]
+    }
+  ],
+  "style_presets": {
+    "唐卡": {
+      "lora": "thangka_style",
+      "weight": 0.8,
+      "additional_prompt": "flat color, traditional tibetan art, gold details, sacred geometry",
+      "additional_negative": "3d render, photorealistic, modern"
+    },
+    "康巴风格": {
+      "lora": "khampa_style",
+      "weight": 0.7,
+      "additional_prompt": "khampa tibetan, traditional costume, ethnic features",
+      "additional_negative": "modern clothing, western style"
+    },
+    "藏式建筑": {
+      "lora": "tibetan_architecture",
+      "weight": 0.75,
+      "additional_prompt": "tibetan architecture, white walls, traditional style",
+      "additional_negative": "modern building, skyscraper, glass facade"
+    },
+    "草原风光": {
+      "lora": "tibetan_landscape",
+      "weight": 0.6,
+      "additional_prompt": "tibetan plateau, vast grassland, dramatic sky, natural beauty",
+      "additional_negative": "urban, city, buildings, crowd"
+    },
+    "藏族人像": {
+      "lora": "tibetan_portrait",
+      "weight": 0.7,
+      "additional_prompt": "tibetan person, ethnic features, traditional costume, detailed face",
+      "additional_negative": "western clothing, modern fashion, anime style"
+    },
+    "格萨尔史诗": {
+      "lora": "gesar_hero",
+      "weight": 0.8,
+      "additional_prompt": "epic hero, warrior, majestic, legendary",
+      "additional_negative": "modern, casual, peaceful"
+    }
+  },
+  "checkpoint_recommendations": {
+    "人像写实": {
+      "checkpoint": "chilloutmix_NiPrunedFp32Fix.safetensors",
+      "vae": "vae-ft-mse-840000-ema-pruned.safetensors",
+      "description": "适合写实人像"
+    },
+    "通用创作": {
+      "checkpoint": "deliberate_v2.safetensors",
+      "vae": "vae-ft-mse-840000-ema-pruned.safetensors",
+      "description": "适合多种风格"
+    },
+    "艺术插画": {
+      "checkpoint": "dreamshaper_8.safetensors",
+      "vae": "vae-ft-mse-840000-ema-pruned.safetensors",
+      "description": "适合艺术风格插画"
+    }
+  }
+}

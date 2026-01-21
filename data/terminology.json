@@ -1,0 +1,150 @@
+{
+  "服饰": {
+    "藏袍": {
+      "english": "chuba, tibetan robe",
+      "description": "藏族传统长袍，宽大右衽",
+      "visual_keywords": ["long robe", "wide sleeves", "traditional tibetan clothing"]
+    },
+    "氆氇": {
+      "english": "pulu, tibetan wool fabric",
+      "description": "藏族手工羊毛织物",
+      "visual_keywords": ["wool fabric", "handwoven", "traditional textile"]
+    },
+    "邦典": {
+      "english": "pangden, tibetan apron",
+      "description": "藏族妇女腰间的彩色围裙",
+      "visual_keywords": ["colorful apron", "striped pattern", "waist decoration"]
+    },
+    "英雄结": {
+      "english": "hero knot hairstyle with red tassel",
+      "description": "康巴男子标志性发型，用红丝线缠绕",
+      "visual_keywords": ["braided hair", "red tassel", "traditional hairstyle", "khampa style"]
+    }
+  },
+  "建筑": {
+    "布达拉宫": {
+      "english": "Potala Palace",
+      "description": "拉萨标志性建筑，世界文化遗产",
+      "visual_keywords": ["massive palace", "white and red walls", "golden roof", "mountain top"]
+    },
+    "大昭寺": {
+      "english": "Jokhang Temple",
+      "description": "拉萨最重要的藏传佛教寺庙",
+      "visual_keywords": ["ancient temple", "golden roof", "tibetan buddhist architecture", "sacred"]
+    },
+    "白塔": {
+      "english": "white stupa, chorten",
+      "description": "藏传佛教的佛塔建筑",
+      "visual_keywords": ["white buddhist stupa", "dome shape", "sacred monument"]
+    },
+    "玛尼堆": {
+      "english": "mani stone pile",
+      "description": "刻有经文的石头堆",
+      "visual_keywords": ["stone pile", "carved mantras", "prayer stones", "tibetan script"]
+    }
+  },
+  "宗教": {
+    "唐卡": {
+      "english": "thangka painting",
+      "description": "藏传佛教卷轴画",
+      "visual_keywords": ["scroll painting", "buddhist art", "gold details", "flat style", "sacred imagery"]
+    },
+    "转经筒": {
+      "english": "prayer wheel, mani wheel",
+      "description": "藏传佛教祈祷法器",
+      "visual_keywords": ["cylindrical wheel", "brass or copper", "carved mantras", "spinning"]
+    },
+    "哈达": {
+      "english": "khata, ceremonial scarf",
+      "description": "藏族礼仪用的白色丝巾",
+      "visual_keywords": ["white silk scarf", "ceremonial", "offering", "auspicious symbols"]
+    },
+    "酥油灯": {
+      "english": "butter lamp",
+      "description": "用酥油点燃的供灯",
+      "visual_keywords": ["warm glow", "golden light", "brass lamp", "temple offering"]
+    },
+    "经幡": {
+      "english": "prayer flags, wind horse flags",
+      "description": "印有经文的五色旗帜",
+      "visual_keywords": ["five colors", "blue white red green yellow", "fluttering", "mountain pass"]
+    },
+    "金刚杵": {
+      "english": "vajra, dorje",
+      "description": "藏传佛教法器",
+      "visual_keywords": ["ritual object", "brass", "symmetrical", "buddhist implement"]
+    }
+  },
+  "人物": {
+    "格萨尔王": {
+      "english": "King Gesar",
+      "description": "藏族史诗英雄",
+      "visual_keywords": ["epic hero", "golden armor", "white horse", "warrior king", "battle flag", "sword"]
+    },
+    "活佛": {
+      "english": "living buddha, rinpoche",
+      "description": "藏传佛教转世高僧",
+      "visual_keywords": ["buddhist master", "red and yellow robes", "serene expression", "religious leader"]
+    },
+    "喇嘛": {
+      "english": "lama, tibetan monk",
+      "description": "藏传佛教僧侣",
+      "visual_keywords": ["monk", "maroon robe", "shaved head", "prayer beads"]
+    },
+    "康巴汉子": {
+      "english": "khampa man, khampa tibetan",
+      "description": "康巴地区的藏族男子",
+      "visual_keywords": ["tall strong man", "hero knot hair", "red tassel", "traditional chuba", "ethnic jewelry"]
+    },
+    "藏族姑娘": {
+      "english": "tibetan girl, tibetan woman",
+      "description": "藏族女性",
+      "visual_keywords": ["beautiful woman", "traditional dress", "braided hair", "coral turquoise jewelry", "warm smile"]
+    }
+  },
+  "自然": {
+    "雪山": {
+      "english": "snow mountain, snow-capped peak",
+      "description": "青藏高原的雪山",
+      "visual_keywords": ["majestic peak", "eternal snow", "glacier", "himalayan mountain"]
+    },
+    "草原": {
+      "english": "tibetan grassland, plateau meadow",
+      "description": "青藏高原的草原",
+      "visual_keywords": ["vast grassland", "green meadow", "blue sky", "grazing yaks"]
+    },
+    "牦牛": {
+      "english": "yak",
+      "description": "高原特有的牛科动物",
+      "visual_keywords": ["long-haired bovine", "black or white fur", "horns", "highland animal"]
+    },
+    "青稞": {
+      "english": "highland barley, qingke",
+      "description": "高原特有的农作物",
+      "visual_keywords": ["barley field", "golden crops", "highland agriculture"]
+    },
+    "纳木错": {
+      "english": "Namtso Lake, Lake Namtso",
+      "description": "西藏三大圣湖之一",
+      "visual_keywords": ["sacred lake", "turquoise water", "snow mountain reflection", "vast lake"]
+    },
+    "珠穆朗玛峰": {
+      "english": "Mount Everest, Qomolangma",
+      "description": "世界最高峰",
+      "visual_keywords": ["highest peak", "snow covered", "majestic", "himalaya"]
+    }
+  },
+  "艺术风格": {
+    "唐卡风格": {
+      "english": "thangka style",
+      "description": "传统唐卡绘画风格",
+      "visual_keywords": ["flat colors", "gold leaf", "intricate details", "sacred geometry", "buddhist iconography"],
+      "negative_keywords": ["3d render", "photorealistic", "modern art"]
+    },
+    "藏式纹样": {
+      "english": "tibetan pattern, tibetan ornament",
+      "description": "藏族传统装饰纹样",
+      "visual_keywords": ["endless knot", "lotus pattern", "cloud pattern", "traditional ornament"]
+    }
+  }
+}
