@@ -1,7 +1,13 @@
 # 极地星光汉藏智能图文生成系统  Tibetan-polar-starlight-new
 
-极地星光项目组团队成员： 
-格智多杰   杨秋   杨荣禄   边巴
+## 🛠️ 项目团队
+
+| 成员姓名     | 团队角色              |
+| :----------- | :-------------------- |
+| **格智多杰** | 项目负责人 / 核心开发 |
+| **杨秋**     | 核心成员              |
+| **杨荣禄**   | 核心成员              |
+| **边巴**     | 核心成员              |
 
 基于 **Stable Diffusion + Ollama + RAG** 的藏族文化主题图像生成系统。
 
@@ -49,6 +55,14 @@
 │  └──────────────┘  └──────────────┘  └──────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
+
+## 用户界面
+
+![image-20260121172808512](C:\Users\Dorjee\AppData\Roaming\Typora\typora-user-images\image-20260121172808512.png)
+
+![image-20260121172856086](C:\Users\Dorjee\AppData\Roaming\Typora\typora-user-images\image-20260121172856086.png)
+
+![image-20260121172959259](C:\Users\Dorjee\AppData\Roaming\Typora\typora-user-images\image-20260121172959259.png)
 
 ## 📋 目录结构
 
@@ -229,6 +243,7 @@ python main.py --share
 4. 点击"生成图片"
 
 系统会自动：
+
 - 查询知识库，补充文化细节
 - 使用 LLM 翻译优化为英文提示词
 - 调用 SD WebUI 生成图片
@@ -258,13 +273,13 @@ python main.py --share
 
 系统内置以下 LoRA 配置（需自行下载模型）：
 
-| 名称 | 触发词 | 适用场景 | 推荐权重 |
-|------|--------|----------|----------|
-| 唐卡风格 | thangka_style | 宗教艺术、传统绘画 | 0.8 |
-| 康巴人物 | khampa_style | 藏族人物、传统服饰 | 0.7 |
-| 藏式建筑 | tibetan_architecture | 寺庙、宫殿、民居 | 0.75 |
-| 草原风光 | tibetan_landscape | 自然风景、高原景观 | 0.6 |
-| 藏族人物 | tibetan_portrait | 人物肖像 | 0.7 |
+| 名称     | 触发词               | 适用场景           | 推荐权重 |
+| -------- | -------------------- | ------------------ | -------- |
+| 唐卡风格 | thangka_style        | 宗教艺术、传统绘画 | 0.8      |
+| 康巴人物 | khampa_style         | 藏族人物、传统服饰 | 0.7      |
+| 藏式建筑 | tibetan_architecture | 寺庙、宫殿、民居   | 0.75     |
+| 草原风光 | tibetan_landscape    | 自然风景、高原景观 | 0.6      |
+| 藏族人物 | tibetan_portrait     | 人物肖像           | 0.7      |
 
 将 LoRA 模型放置在 SD WebUI 的 `models/Lora/` 目录下。
 
@@ -337,6 +352,7 @@ pytest --cov=middleware --cov-report=html
 ### Q: SD WebUI 连接失败
 
 **A**: 确保启动时添加 `--api` 参数：
+
 ```bash
 ./webui.sh --api --listen
 ```
@@ -344,6 +360,7 @@ pytest --cov=middleware --cov-report=html
 ### Q: Ollama 模型未找到
 
 **A**: 先下载模型：
+
 ```bash
 ollama pull qwen2:7b
 ollama list  # 查看已安装模型
@@ -352,6 +369,7 @@ ollama list  # 查看已安装模型
 ### Q: 显存不足（OOM）
 
 **A**: 降低生成分辨率或启用 CPU 卸载：
+
 ```python
 # 在 config.py 中
 default_params["width"] = 512
@@ -361,6 +379,7 @@ default_params["height"] = 768
 ### Q: 藏文显示乱码
 
 **A**: 安装藏文字体：
+
 - Windows: 安装 Microsoft Himalaya
 - Linux: `sudo apt install fonts-tibetan-machine`
 - macOS: 安装 Noto Sans Tibetan
@@ -368,6 +387,7 @@ default_params["height"] = 768
 ### Q: 生成速度慢
 
 **A**:
+
 1. 确认 GPU 驱动正确安装
 2. 启用 xformers 加速
 3. 减少生成步数（steps: 20-25）
@@ -406,6 +426,7 @@ flake8 .
 ## 📝 更新日志
 
 ### v1.0.0 (2026-01-21)
+
 - ✨ 初始版本发布
 - 🎨 支持文生图、图生图
 - 📚 集成 RAG 知识库
@@ -432,6 +453,7 @@ flake8 .
 ---
 
 <div align="center">
+
 
 **⭐ 如果这个项目对您有帮助，请给个 Star！⭐**
 
