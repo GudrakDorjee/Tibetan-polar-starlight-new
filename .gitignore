@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.local
+
+# 输出文件
+outputs/
+logs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 数据库
+data/chroma_db/
+*.db
+*.sqlite
+
+# 缓存
+.cache/
+*.cache
+.gradio/
+
+# 模型文件 (太大不上传)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# 字体文件 (需要单独下载)
+assets/fonts/*.ttf
+assets/fonts/*.otf
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp

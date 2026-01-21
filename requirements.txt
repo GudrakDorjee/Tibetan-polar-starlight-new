@@ -1,0 +1,22 @@
+streamlit
+requests
+httpx
+Pillow
+chromadb
+sentence-transformers
+numpy
+pydantic
+pydantic-settings
+python-dotenv
+tqdm
+loguru
+typing-extensions
+pytest
+pytest-asyncio
+black
+isort
+flake8
+deep-translator
+flet pillow
+websocket-client
+pydub
