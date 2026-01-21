@@ -1,0 +1,20 @@
+2026-01-13 23:53:43,549 - middleware.rag_engine - INFO - 加载嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2026-01-13 23:53:43,551 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-13 23:53:43,551 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2026-01-13 23:53:56,609 - middleware.rag_engine - INFO - 嵌入模型加载成功
+2026-01-13 23:53:56,724 - middleware.rag_engine - INFO - ChromaDB 初始化成功，集合: tibetan_culture
+2026-01-13 23:53:56,727 - middleware.rag_engine - INFO - 当前文档数量: 0
+2026-01-13 23:53:56,728 - __main__ - WARNING - 知识库初始化失败: 'Settings' object has no attribute 'knowledge_base_dir'
+2026-01-13 23:53:56,741 - middleware.rag_engine - INFO - 加载嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2026-01-13 23:53:56,743 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-13 23:53:56,743 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2026-01-13 23:54:07,835 - middleware.rag_engine - INFO - 嵌入模型加载成功
+2026-01-13 23:54:07,865 - middleware.rag_engine - INFO - ChromaDB 初始化成功，集合: tibetan_culture
+2026-01-13 23:54:07,866 - middleware.rag_engine - INFO - 当前文档数量: 0
+2026-01-13 23:54:07,868 - middleware.text_renderer - INFO - 找到藏文字体: himalaya
+2026-01-13 23:54:07,873 - middleware.text_renderer - INFO - 找到藏文字体: A-Himalaya
+2026-01-13 23:54:07,873 - middleware.text_renderer - INFO - 找到藏文字体: himalaya
+2026-01-13 23:54:07,873 - middleware.text_renderer - INFO - 找到藏文字体: Jomolhari-alpha3c-0605331
+2026-01-13 23:54:07,874 - ui.gradio_app - INFO - 所有客户端初始化完成
+2026-01-13 23:54:09,503 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-01-13 23:54:10,255 - httpx - INFO - HTTP Request: GET http://localhost:7871/gradio_api/startup-events "HTTP/1.1 502 Bad Gateway"
