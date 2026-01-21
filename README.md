@@ -1,6 +1,6 @@
 # 极地星光汉藏智能图文生成系统  Tibetan-polar-starlight-new
 
-极地星光项目组： 
+极地星光项目组团队成员： 
 格智多杰   杨秋   杨荣禄   边巴
 
 基于 **Stable Diffusion + Ollama + RAG** 的藏族文化主题图像生成系统。
@@ -439,3 +439,4 @@ Made with ❤️ for Tibetan Culture
 
 
 </div>
+
