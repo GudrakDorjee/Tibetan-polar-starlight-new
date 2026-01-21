@@ -13,9 +13,10 @@
 
 支持中文输入，自动翻译优化提示词，内置藏族文化知识库增强生成效果。
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Gradio](https://img.shields.io/badge/Gradio-4.0+-orange.svg)
+<img width="2505" height="1470" alt="1" src="https://github.com/user-attachments/assets/bff6d200-d8a5-4428-83aa-7f95a80a3ca8" />
+<img width="2529" height="1413" alt="2" src="https://github.com/user-attachments/assets/626b126c-7520-44c4-a54d-27023bafca4c" />
+<img width="2517" height="1377" alt="3" src="https://github.com/user-attachments/assets/a63d2f73-5ba4-48d8-bf38-41070d7d3036" />
+
 
 ## ✨ 功能特点
 
@@ -460,5 +461,6 @@ Made with ❤️ for Tibetan Culture
 
 
 </div>
+
 
 
