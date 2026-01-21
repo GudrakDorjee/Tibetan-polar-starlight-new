@@ -57,8 +57,7 @@
 ```
 
 ## 用户界面
-
-![image-20260121172808512](C:\Users\Dorjee\AppData\Roaming\Typora\typora-user-images\image-20260121172808512.png)
+https://github.com/GudrakDorjee/Tibetan-polar-starlight-new/blob/main/outputs/1.png
 
 ![image-20260121172856086](C:\Users\Dorjee\AppData\Roaming\Typora\typora-user-images\image-20260121172856086.png)
 
@@ -461,4 +460,5 @@ Made with ❤️ for Tibetan Culture
 
 
 </div>
+
 
